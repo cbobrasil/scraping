@@ -38,8 +38,3 @@ for book in books:
     cur.close()
     connection.close()
     
-
-#for page_num in range (1,51):
-#    url = f'https://books.toscrape.com/catalogue/page-{page_num}.html'
-#   response = requests.get(url)
-#    soup=BeautifulSoup(response.content,'html.parser')
